@@ -15,7 +15,7 @@ Just compile and start `TrafficSimulator#main` method
 
 ## Implementation details
 Simulation is initialized with 4 roads, two traffic lights with different inital state (each traffic light can serve for two opposite roads). During initialization there are also registered following events into event queue:
-* switch traffic light via `TrafficLightEvent
+* switch traffic light via `TrafficLightEvent`
 * arrival of new car on the road via `NewVehicleEvent`
 * car leaving the junction via `LeaveJunctionEvent`
 
