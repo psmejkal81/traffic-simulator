@@ -8,7 +8,7 @@ Just compile and start `TrafficSimulator#main` method
 * class `TrafficSimulator` is main runable class
 * class `Simulation` is responsible for initialization and execution of simulation based on provided configuration
 * class `EventQeueController` is responsible for management of event queue
-* class `Configuration` holds static configuration for simulation. This could be replaced with some configuration loader e.g. from JSON configuration file
+* class `Configuration` holds static configuration for simulation. This could be replaced with some configuration loader e.g. from JSON configuration file. Also can be tranformed from static methods to singleton class.
 
 * package `entities` contains all elementary objects such as traffic light, vehicle,...
 * package `events` contains all events which can be processed in event queue
